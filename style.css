@@ -47,6 +47,7 @@ html {
   height: 2.75rem;
   display: grid;
   align-items: center;
+  margin: 0 10px;
 }
 
 .nav-main_item a,
@@ -269,7 +270,6 @@ h5 {
   }
   .nav-small {
     display: grid;
-    padding: 0 10px;
   }
   ::-webkit-scrollbar {
     display: none;
