@@ -276,6 +276,71 @@ h5 {
   }
 }
 
+.notas {
+  width: 980px;
+  font-size: 0.75em;
+  margin: auto;
+  padding: 25px;
+}
+
+.notasText {
+  text-align: lefqt;
+  margin-bottom: 15px;
+  text-align: left;
+  color: #6e6e73;
+  list-style: none;
+}
+
+.footer {
+  width: 980px;
+  margin: auto;
+  padding: 25px;
+}
+
+.footFlex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footTitle {
+  text-align: left;
+  font-size: 0.9em;
+  line-height: 20px;
+}
+
+.footLista {
+  text-align: left;
+  font-size: 0.7em;
+  line-height: 20px;
+  font-weight: 50;
+}
+
+.foot_contact {
+  text-align: left;
+  font-size: 0.8em;
+  line-height: 12px;
+  padding: 10px;
+}
+
+.footer_col {
+  width: 12%;
+  vertical-align: text-top;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.copyW {
+  margin: 0px 10px;
+  displaay: inline-block;
+  width: 100%;
+}
+
 /* @media screen and (max-width: 735px) {
   .smallBox {
     grid-template-columns: 1fr;
